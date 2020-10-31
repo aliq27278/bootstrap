@@ -1,0 +1,181 @@
+#title{
+	background-color: #ff4c68;
+	color: #fff;
+	position: relative;
+}
+
+.container-fluid{
+	padding:3% 15% 7%;  
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+
+ /*navigation bar*/
+
+.navbar-brand{
+	font-family: 'Ubuntu';
+	font-weight:bold;
+	font-size: 2.5rem;
+
+}
+.navbar{
+	padding: 0 0 4.5rem;
+	font-weight: bold;
+}
+.nav-item{
+	padding: 0px 18px;
+}
+.nav-link{
+	font-style:'Montserrat';
+	color: white;
+	font-size: 1.2rem;
+}
+
+/*Download button*/
+
+.download_button{
+margin: 5% 3% 5% 0;
+}
+
+.title-img{
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+/* css use to make reponsive title img and title*/
+
+@media(max-width:1028px ){
+.title-img{
+		position: static;
+		transform: rotate(0deg);
+	}
+	#title{
+		text-align: center;
+	}
+	
+}
+
+/*features Section*/
+
+#features{
+padding: 7% 15% ;
+background-color: #fff;
+position: relative;
+}
+h3{
+
+	font-weight: bold;
+	font-size:1.2rem ;
+	font-family: 'Montserrat'; 
+
+}
+p{
+	color: #8f8f8f;
+}
+
+.featured-box{
+text-align: center;
+padding: 5%;
+}
+.icon{
+	color: #ef8172;
+
+}	
+.icon:hover{
+	color: #ff4c68;
+}
+
+/*Testimonials Sections*/
+
+#testimonials{
+
+	background-color: #ef8172;
+	text-align: center;
+	color: #fff;
+	font-family: 'Montserrat' , sans-serif;
+}		
+.carousel-item {
+	padding: 7% 15%;
+
+}
+#testimonials h2{
+font-size: 2.0rem;	
+font-weight: bold;
+}						
+#testimonials img{
+	border-radius: 100%;
+	width: 100px;
+}
+
+	/*press Sectoin*/
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}	
+#press img{
+	width: 15%;
+margin: 20px 20px 50px;
+}						
+
+
+/*pricing Section*/
+
+#pricing h2{
+font-size: 2.5rem;	
+font-weight: bold;
+font-family: 'montserrat',sans-serif;
+}	
+
+#pricing{ 
+ text-align: center; 
+ padding: 100px;
+  }
+
+.card{   
+  margin: 20px;
+   }
+
+
+/*cta section*/
+
+#cta{
+text-align:center;
+background-color:#ff4c68; 
+padding: 7% 15% 10%;
+}	
+
+#cta h3{
+color: #fff;
+font-weight: bold;
+font-size: 3rem; 
+font-family: 'montserrate' sans-serif;
+line-height: 2;
+}
+
+#cta .btn{
+margin: 2%;
+}
+
+/*footer section*/
+
+#footer {
+	background-color: #fff;
+	text-align: center; 
+	line-height: 2;
+	padding: 7% 15%;
+}
+
+.social-icon{
+padding: 0px 8px;
+}	
+
+a{
+	color: black;
+}
